@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+#map,
+body,
+html {
+  height: 600px;
+}
+
+#map2,
+body,
+html {
+  height: 600px;
+}
+
+#map3,
+body,
+html {
+  height: 600px;
+}
+
+.legend {
+    /* padding: 10px; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #555;
+    background-color: white;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    height:360px;
+    width: 180px;
+  }
+
+  .box {
+    min-height: 50px;
+    padding: 20px;
+    margin: 5px;
+    font-weight: 800;
+    background-color: rgb(255, 255, 255);
+  }
+
+.nav-item {
+  padding: 10px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 200;
+    color: #ffffff23;
+}
+
+html,body {
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 2em;
+  font-size: 18px;
+  /* background: #222; */
+  /* color: #aaa */
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3em; }
+h2 {
+  /* color: #888; */
+  font-size: 2em;
+}
+
+.navbar-brand {
+    height: 40px;
+    padding: 10px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.float-left {
+    height:160px;
+    width:160px;
+}
+
+.float-right {
+    height:160px;
+    width:160px;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+#form-inline {
+  color: black;
+}
+
+.col-md-3 {
+  justify-content: left;
+  float: left;
+}
+
+.col-md-2 {
+  justify-content: left;
+  float: right;
+}
+
+#selDataset{
+  width: 200px;;
+}
+.col-md-8 {
+  justify-content: center;
+  float: middle;
+  margin-left: 180px;
+}
+.well {
+  text-align: center;
+  width: 600px;
+  /* margin: right; */
+  margin-left: 250px;
+  justify-content: first baseline;
+}
+
+.well2 {
+  text-align: center;
+  width: 300px;
+  /* margin: right; */
+  margin-top: 25;
+  margin-left: 0;
+  justify-content: last baseline;
+}
+
+.my-legend .legend-title {
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 90%;
+  }
+.my-legend .legend-scale ul {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  float: left;
+  list-style: none;
+  }
+.my-legend .legend-scale ul li {
+  font-size: 80%;
+  list-style: none;
+  margin-left: 0;
+  line-height: 18px;
+  margin-bottom: 2px;
+  }
+.my-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 0;
+  border: 1px solid #999;
+  }
+.my-legend .legend-source {
+  font-size: 70%;
+  color: #999;
+  clear: both;
+  }
+.my-legend a {
+  color: #777;
+  }
